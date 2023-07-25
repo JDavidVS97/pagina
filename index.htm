@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Barra de Tareas Desplegable</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav>
+    <ul>
+      <li><a class="toolbar" id="inicio" href="#">Inicio</a></li>
+      <li><a class="toolbar" id="acerca" href="#">Acerca de</a></li>
+      <li class="dropdown">
+        <a href="#">Servicios &#9660;</a>
+        <ul class="dropdown-content">
+          <li><a class="dropdown-content/" href="#">Servicio 1</a></li>
+          <li><a class="dropdown-content/" href="#">Servicio 2</a></li>
+          <li><a class="dropdown-content/" href="#">Servicio 3</a></li>
+        </ul>
+      </li>
+      <li><a class="toolbar" id="contacto" href="#">Contacto</a></li>
+    </ul>
+  </nav>
+  <div id="Inicio">
+    <h1>BarberShop</h1>
+    <p>Este es el inicio de la pagina!</p>
+  </div>
+  <div id="resultado"></div>
+  <script src="script.js"></script>
+</body>
+</html>
